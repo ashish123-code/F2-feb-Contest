@@ -1,0 +1,37 @@
+#issue-form {
+  margin-bottom: 20px;
+}
+#issue-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+#issue-form input[type="text"] {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+/* Table styles */
+#issued-books {
+  border-collapse: collapse;
+  width: 100%;
+}
+#issued-books th,
+#issued-books td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+#issued-books th {
+  background-color: #f2f2f2;
+}
+#issued-books td.status {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#issued-books td.returned {
+  color: green;
+}
+#issued-books td.not-returned {
+  color: red;
+}
